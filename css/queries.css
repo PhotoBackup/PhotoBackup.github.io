@@ -1,0 +1,22 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+	.hero { padding: 50px 0px 200px 0px;}
+	.hero h1 { font-size: 30px; letter-spacing: 8px; margin: 10px; }
+	.screen { display: none; }
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.credit { text-align: center; }
+	.screen { display: none; }
+}
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; }
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:480px) and (max-width:991px) {
+	.wrapper { background: #f3f5f8; height: 540px; }
+	.credit { text-align: center; }
+}
