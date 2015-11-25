@@ -46,11 +46,7 @@ Typography
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
  
 h1 { font-size: 2em; margin: 0.67em 0; color: #e5e5e5; }
-h2 { font-size: 1.5em; margin: 0.83em 0; }
-h3 { font-size: 1.17em; margin: 1em 0; }
-h4 { font-size: 1em; margin: 1.33em 0; }
-h5 { font-size: 0.83em; margin: 1.67em 0; }
-h6 { font-size: 0.75em; margin: 2.33em 0; }
+h2 { font-size: 1.3em; margin: 1em 0; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -199,6 +195,7 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin-bottom:50px; }
+p.many { margin-bottom:30px; }
 h1.arrow { font-size: 24px; color: #353535; letter-spacing: 1px; font-weight: bold; }
 /* ==========================================================================
 Clients
@@ -213,7 +210,7 @@ Servers
 .servers h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .servers h1 span { display: block; font-size: 25px; margin-top: 20px; }
 /* ==========================================================================
-Subscribe
+Conclusion
 ========================================================================== */
 .rest { background: url('../img/cat.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 600px; }
 .rest h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
