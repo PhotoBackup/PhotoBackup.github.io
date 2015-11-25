@@ -46,7 +46,7 @@ Typography
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
  
 h1 { font-size: 2em; margin: 0.67em 0; color: #e5e5e5; }
-h2 { font-size: 1.3em; margin: 1em 0; }
+h2 { font-size: 1.3em; margin: 1em 0; font-weight: bold; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -169,8 +169,6 @@ Global Styles
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #8c9398; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 15px; }
-h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 80px 0 50px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
